@@ -17,7 +17,7 @@
     "docs": "npx typedoc --logLevel Error --excludeExternals --excludeProtected --excludePrivate --readme none lib/index.ts",
     "format": "prettier --write \"{,!(node_modules)/**/}*.{js,ts}\"",
     "format-check": "prettier --check \"{,!(node_modules)/**/}*.{js,ts}\"",
-    "build": "rm -rf built && tsc",
+    "build": "tsc",
     "prepublishOnly": "npm run build",
     "semantic-release": "semantic-release"
   },
