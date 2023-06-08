@@ -859,8 +859,12 @@ class Cluster extends Commander {
             if (!items[j][0]) {
               continue;
             }
-            const node = this.natMapper({
+            this.options.natMap[`${items[j][0]}:${items[j][1]}`] = {
               host: items[j][3]?.[1] as string ?? items[j][0],
+              port: items[j][1]
+            }
+            const node = this.natMapper({
+              host: items[j][0],
               port: items[j][1],
             });
             node.readOnly = j !== 2;
