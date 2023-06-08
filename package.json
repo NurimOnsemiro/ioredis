@@ -1,6 +1,6 @@
 {
   "name": "ioredis-fork",
-  "version": "5.3.3",
+  "version": "5.3.4",
   "description": "A robust, performance-focused and full-featured Redis client for Node.js.",
   "main": "./built/index.js",
   "types": "./built/index.d.ts",
