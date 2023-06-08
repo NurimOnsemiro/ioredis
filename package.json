@@ -1,5 +1,5 @@
 {
-  "name": "ioredis",
+  "name": "ioredis-fork",
   "version": "5.3.2",
   "description": "A robust, performance-focused and full-featured Redis client for Node.js.",
   "main": "./built/index.js",
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/luin/ioredis.git"
+    "url": "git://github.com/NurimOnsemiro/ioredis.git"
   },
   "keywords": [
     "redis",
